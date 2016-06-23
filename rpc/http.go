@@ -30,7 +30,7 @@ import (
 )
 
 const (
-	maxHTTPRequestContentLength = 1024 * 128
+	maxHTTPRequestContentLength = 1024 * 1024
 )
 
 // httpClient connects to a geth RPC server over HTTP.
